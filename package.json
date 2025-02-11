@@ -4,7 +4,8 @@
   "description": "ecommerse usando commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "author": "sebaslg96@gmail.com",
   "license": "ISC",
