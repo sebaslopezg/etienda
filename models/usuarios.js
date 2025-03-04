@@ -1,4 +1,4 @@
-const {Schema, model, Collection} = require('mongoose')
+const {Schema, model} = require('mongoose')
 
 const usuarioSchema = Schema(
     {
@@ -38,6 +38,10 @@ const usuarioSchema = Schema(
           type: String,
           default: "",
         },
+        imagen:{
+          type:String,
+          default:"default.png"
+        }
     },
     {Collection:"usuarios"}
 )
