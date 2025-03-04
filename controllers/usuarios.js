@@ -207,6 +207,5 @@ module.exports = {
     registro,
     login,
     subirImagen,
-    
     avatar
 }

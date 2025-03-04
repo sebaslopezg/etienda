@@ -28,6 +28,7 @@ const uploads = multer({storage})
 //rutas que entregará el modulo producto
 
 router.get("/usuarios/listartodos", usuarioCtr.listartodos)
+router.get("/usuarios/avatar/:file", usuarioCtr.avatar);
 router.post("/usuarios/registro", usuarioCtr.registro);
 router.post("/usuarios/login", usuarioCtr.login);
 router.post(
